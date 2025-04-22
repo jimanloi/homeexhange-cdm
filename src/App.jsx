@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Intro from "./components/intro";
+import Intro from "./components/Intro";
 import WelcomeAnimation from "./components/WelcomeAnimation";
 import MainContent from "./components/MainContent/MainContent";
 
