@@ -1,4 +1,4 @@
-export const Intro = () => {
+const Intro = () => {
   return (
     <div className="intro-section">
       <img
@@ -37,3 +37,5 @@ export const Intro = () => {
     </div>
   );
 };
+
+export default Intro;
