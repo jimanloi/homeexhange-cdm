@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.svg-icon {
+  width: 50px;
+  height: 50px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.home-rules {
+  background-color: rgb(254, 252, 205);
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+}
+
+.home-rules li {
+  text-align: left;
+}
+
+.main-content-list-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.list-group-item {
+  text-align: left;
+  border: 1px solid transparent;
+}
