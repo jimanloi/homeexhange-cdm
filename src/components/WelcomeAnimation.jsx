@@ -65,37 +65,46 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
           className="modal fade show d-block"
           tabIndex="-1"
           style={{
-            backgroundColor: "hsla(250, 100.00%, 90.00%, 0.98)",
+            backgroundColor: "rgba(253, 249, 242, 0.96)",
+            color: "rgb(2, 58, 58)",
+            border: "2px solid rgb(46, 100, 114)",
             position: "fixed",
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-            width: "fit-content",
-            height: "fit-content",
+            maxHeight: "fit-content",
+            overflowY: "auto",
+            width: "90vw",
+            maxWidth: "600px",
+            padding: "1.5rem",
             borderRadius: "20px",
             zIndex: 1050,
-            padding: "30px",
-            margin: "20px",
-            display: "inline-block",
+            boxSizing: "border-box",
           }}
         >
-          <h2>Welcome to our home!</h2>
+          <h3>🇬🇧 Welcome to our home!</h3>
+          <h3>🇫🇷 Bienvenue chez nous!</h3>
           <img
             src={ManloiJulien}
             alt="us"
             style={{
               objectFit: "cover",
-              width: "150px",
-              height: "150px",
-              borderRadius: "75px",
+              width: "5rem",
+              height: "5rem",
+              borderRadius: "2.5rem",
             }}
           />
           <div className="modal-body" style={{ padding: "10px 40px" }}>
             <p>
-              We’re very happy to share our place with you and truly hope you
-              enjoy the apartment as much as we do. To help you settle in and
-              feel right at home, we’ve put together this little manual — you’ll
-              find everything you need right here!
+              🇬🇧 We’re very happy to share our place with you and hope you enjoy
+              your stay as much as we enjoy living here. This guide includes
+              everything you need to feel at home.
+            </p>
+            <p>
+              🇫🇷 Nous sommes ravis de vous accueillir dans notre petit cocon.
+              Nous vous souhaitons un excellent séjour à Bruxelles ! Vous
+              trouverez ici toutes les informations utiles pour profiter
+              pleinement de l’appartement et vous sentir comme chez vous.
             </p>
             <p>
               <small>Manloi & Julien</small>

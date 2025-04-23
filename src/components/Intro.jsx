@@ -3,8 +3,12 @@ import brusselsIllustration from "../assets/brussels-illustration.jpg";
 const Intro = () => {
   return (
     <div className="intro-section">
-      <img src={brusselsIllustration} alt="brussels" width={500} />
-      <h1>Welcome to our home in Brussels!</h1>
+      <img
+        src={brusselsIllustration}
+        alt="brussels"
+        style={{ marginTop: "10px", maxWidth: "40vw" }}
+      />
+      <h2>Welcome to our home in Brussels!</h2>
       <div className="home-rules">
         <ul>
           <h3>🏡A few important things:</h3>

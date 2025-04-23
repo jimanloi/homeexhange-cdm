@@ -9,7 +9,7 @@ const Available = () => {
           role="button"
           aria-expanded="false"
           aria-controls="available"
-          style={{ padding: "10px", width: "400px" }}
+          style={{ padding: "10px", maxWidth: "85vw", minWidth: "45vw" }}
         >
           🛠 What’s Available for You
         </a>
