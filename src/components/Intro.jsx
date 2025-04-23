@@ -1,11 +1,9 @@
+import brusselsIllustration from "../assets/brussels-illustration.jpg";
+
 const Intro = () => {
   return (
     <div className="intro-section">
-      <img
-        src="/src/assets/brussels-illustration.jpg"
-        alt="brussels"
-        width={500}
-      />
+      <img src={brusselsIllustration} alt="brussels" width={500} />
       <h1>Welcome to our home in Brussels!</h1>
       <div className="home-rules">
         <ul>

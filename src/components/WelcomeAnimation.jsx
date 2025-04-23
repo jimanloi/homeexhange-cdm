@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import BelgianFlag from "../assets/belgian-flag.svg";
 import Atomium from "../assets/atomium.svg";
 import BrusselsSprouts from "../assets/brussels-sprouts.svg";
+import ManloiJulien from "../assets/manloi-julien.jpg";
 import _ from "lodash";
 
 const icons = [BelgianFlag, Atomium, BrusselsSprouts];
@@ -80,7 +81,7 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
         >
           <h2>Welcome to our home!</h2>
           <img
-            src="src/assets/manloi-julien.jpg"
+            src={ManloiJulien}
             alt="us"
             style={{
               objectFit: "cover",
