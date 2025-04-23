@@ -80,7 +80,7 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
         >
           <h2>Welcome to our home!</h2>
           <img
-            src="/src/assets/manloi-julien.jpg"
+            src="src/assets/manloi-julien.jpg"
             alt="us"
             style={{
               objectFit: "cover",
