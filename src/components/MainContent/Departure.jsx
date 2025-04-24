@@ -9,7 +9,7 @@ const Departure = () => {
           role="button"
           aria-expanded="false"
           aria-controls="departure"
-          style={{ padding: "10px", maxWidth: "85vw", minWidth: "45vw" }}
+          style={{ padding: "10px", maxWidth: "85vw", minWidth: "50vw" }}
         >
           👋 Departure Checklist
         </a>

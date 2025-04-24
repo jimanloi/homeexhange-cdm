@@ -9,16 +9,16 @@ const Available = () => {
           role="button"
           aria-expanded="false"
           aria-controls="available"
-          style={{ padding: "10px", maxWidth: "85vw", minWidth: "45vw" }}
+          style={{ padding: "10px", maxWidth: "85vw", minWidth: "50vw" }}
         >
-          🛠 What’s Available for You
+          🪮 What’s Available for You
         </a>
       </p>
       <div class="collapse" id="available">
         <div class="card card-body list-group">
           <h5>
             We’ve tried to make the apartment as comfortable and practical as
-            possible — here’s what we provide during your stay:
+            possible — these are available:
           </h5>
           <ul>
             <li class="list-group-item">

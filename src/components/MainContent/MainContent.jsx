@@ -1,6 +1,9 @@
 import Arrival from "./Arrival";
 import Departure from "./Departure";
 import Available from "./Available";
+import Kitchen from "./Kitchen";
+import Trash from "./Trash";
+import Wifi from "./Wifi";
 
 const MainContent = () => {
   return (
@@ -8,6 +11,9 @@ const MainContent = () => {
       <Arrival />
       <Departure />
       <Available />
+      <Kitchen />
+      <Trash />
+      <Wifi />
     </>
   );
 };

@@ -24,13 +24,13 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
           const res = _.uniq([...prevIcon, icon]);
           return res;
         });
-      }, index * 600);
+      }, index * 500);
     });
 
     // Show modal after all icons are visible (600ms * 3 icons = 1800ms)
     const modalTimer = setTimeout(() => {
       setShowModal(true);
-    }, icons.length * 600 + 300);
+    }, icons.length * 500 + 200);
 
     return () => clearTimeout(modalTimer);
   }, [showModalOnly]);
@@ -67,7 +67,7 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
           style={{
             backgroundColor: "rgba(253, 249, 242, 0.96)",
             color: "rgb(2, 58, 58)",
-            border: "2px solid rgb(46, 100, 114)",
+            border: "2px solid rgb(97, 173, 192)",
             position: "fixed",
             top: "50%",
             left: "50%",
@@ -75,23 +75,23 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
             maxHeight: "fit-content",
             overflowY: "auto",
             width: "90vw",
-            maxWidth: "600px",
-            padding: "1.5rem",
+            maxWidth: "700px",
+            padding: "1.3rem",
             borderRadius: "20px",
             zIndex: 1050,
             boxSizing: "border-box",
           }}
         >
-          <h3>🇬🇧 Welcome to our home!</h3>
-          <h3>🇫🇷 Bienvenue chez nous!</h3>
+          <h4>🇬🇧 Welcome to our home!</h4>
+          <h4>🇫🇷 Bienvenue chez nous!</h4>
           <img
             src={ManloiJulien}
             alt="us"
             style={{
               objectFit: "cover",
-              width: "5rem",
-              height: "5rem",
-              borderRadius: "2.5rem",
+              width: "6rem",
+              height: "6rem",
+              borderRadius: "3rem",
             }}
           />
           <div className="modal-body" style={{ padding: "10px 40px" }}>
@@ -117,9 +117,10 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
               style={{
                 backgroundColor: "transparent",
                 border: "1px solid transparent",
+                fontSize: "1.5rem",
               }}
             >
-              <i class="bi bi-x-circle"></i>
+              <i class="bi bi-x-circle" style={{ color: "rgb(2, 58, 58)" }}></i>
             </button>
           </div>
         </div>

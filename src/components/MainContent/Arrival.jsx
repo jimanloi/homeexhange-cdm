@@ -9,7 +9,7 @@ const Arrival = () => {
           role="button"
           aria-expanded="false"
           aria-controls="collapseExample"
-          style={{ padding: "10px", maxWidth: "85vw", minWidth: "45vw" }}
+          style={{ padding: "10px", maxWidth: "85vw", minWidth: "50vw" }}
         >
           🧳 Arrival info
         </a>

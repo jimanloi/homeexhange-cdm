@@ -3,6 +3,7 @@ import "./App.css";
 import Intro from "./components/Intro";
 import WelcomeAnimation from "./components/WelcomeAnimation";
 import MainContent from "./components/MainContent/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ function App() {
           <WelcomeAnimation showModalOnly />
           <Intro />
           <MainContent />
+          <Footer />
         </>
       )}
     </>
