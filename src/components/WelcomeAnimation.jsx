@@ -72,7 +72,6 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-            maxHeight: "fit-content",
             overflowY: "auto",
             width: "90vw",
             maxWidth: "700px",
@@ -80,6 +79,9 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
             borderRadius: "20px",
             zIndex: 1050,
             boxSizing: "border-box",
+            minHeight: "65vh",
+            maxHeight: "fit-content",
+            height: "auto",
           }}
         >
           <h4>🇬🇧 Welcome to our home!</h4>
