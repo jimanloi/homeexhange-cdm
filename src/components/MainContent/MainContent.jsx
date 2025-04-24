@@ -4,6 +4,8 @@ import Available from "./Available";
 import Kitchen from "./Kitchen";
 import Trash from "./Trash";
 import Wifi from "./Wifi";
+import SofaBed from "./Sofabed";
+import Heating from "./Heating";
 
 const MainContent = () => {
   return (
@@ -14,6 +16,8 @@ const MainContent = () => {
       <Kitchen />
       <Trash />
       <Wifi />
+      <Heating />
+      <SofaBed />
     </>
   );
 };

@@ -13,7 +13,7 @@ const Trash = () => {
           aria-controls="trash"
           style={{ padding: "10px", maxWidth: "85vw", minWidth: "50vw" }}
         >
-          🗑 Trash & Recycling in Brussels
+          🗑 Trash & Recycling
         </a>
       </p>
       <div class="collapse" id="trash">

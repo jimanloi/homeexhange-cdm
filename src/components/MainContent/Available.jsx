@@ -11,7 +11,7 @@ const Available = () => {
           aria-controls="available"
           style={{ padding: "10px", maxWidth: "85vw", minWidth: "50vw" }}
         >
-          🪮 What’s Available for You
+          🪮 What’s Available
         </a>
       </p>
       <div class="collapse" id="available">
