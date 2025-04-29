@@ -26,7 +26,7 @@ const Heating = () => {
             The default setting is <strong>auto</strong>, which adjusts the
             temperature according to the time of day.
           </p>
-          <img src={heatingDevice} alt="heatingDevice" />
+          <img src={heatingDevice} alt="heatingDevice" className="sofa-img" />
         </div>
       </div>
     </div>

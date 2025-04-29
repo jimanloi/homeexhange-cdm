@@ -49,7 +49,11 @@ const Trash = () => {
           <img
             src={trashCalendar}
             alt="trashCalendar"
-            style={{ margin: "0 1.5rem" }}
+            style={{
+              margin: "0 1.5rem",
+              maxWidth: "800px",
+              alignSelf: "center",
+            }}
           />
         </div>
       </div>
