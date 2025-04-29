@@ -44,3 +44,8 @@
   text-align: left;
   border: 1px solid transparent;
 }
+
+.sofa-img {
+  max-width: 600px;
+  align-self: center;
+}

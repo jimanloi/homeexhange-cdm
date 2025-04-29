@@ -19,7 +19,8 @@ const Departure = () => {
           <ul>
             <h4>✅ Before you leave, we kindly ask you to:</h4>
             <li class="list-group-item">
-              🛏 Remove all bed sheets and place them on the bed{" "}
+              🛏 Remove all bed sheets and place them in one of the laundry bags
+              in the bathroom{" "}
             </li>
             <li class="list-group-item">
               🚪 Close all windows and the patio door

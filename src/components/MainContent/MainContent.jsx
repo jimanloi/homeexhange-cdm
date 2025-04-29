@@ -6,6 +6,7 @@ import Trash from "./Trash";
 import Wifi from "./Wifi";
 import SofaBed from "./SofaBed";
 import Heating from "./Heating";
+import SmokeDetecter from "./SmokeDetector";
 
 const MainContent = () => {
   return (
@@ -15,6 +16,7 @@ const MainContent = () => {
       <Available />
       <Kitchen />
       <Trash />
+      <SmokeDetecter />
       <Wifi />
       <Heating />
       <SofaBed />

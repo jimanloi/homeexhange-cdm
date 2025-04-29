@@ -21,7 +21,11 @@ const SofaBed = () => {
       </p>
       <div class="collapse" id="sofabed">
         <div class="card card-body list-group" style={{ padding: 20 }}>
-          <img src={sofa1} alt="sofa1" />
+          <p>
+            The sofa can be easily converted into a bed. You will find the bed
+            sheets, pillows and blanket in the sofa storage space.
+          </p>
+          <img src={sofa1} alt="sofa1" className="sofa-img" />
           <br />
           <p>1. Lift and pull the seat</p>
           <p>
@@ -30,11 +34,11 @@ const SofaBed = () => {
               forward — it will slide out smoothly.
             </small>
           </p>
-          <img src={sofa2} alt="sofa2" />
-          <img src={sofa3} alt="sofa3" />
+          <img src={sofa2} alt="sofa2" className="sofa-img" />
+          <img src={sofa3} alt="sofa3" className="sofa-img" />
           <br />
           <p>2. Lower the backrest</p>
-          <img src={sofa4} alt="sofa4" />
+          <img src={sofa4} alt="sofa4" className="sofa-img" />
         </div>
       </div>
     </div>
