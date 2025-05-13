@@ -51,8 +51,8 @@ const Trash = () => {
             alt="trashCalendar"
             style={{
               margin: "0 1.5rem",
-              maxWidth: "800px",
               alignSelf: "center",
+              width: "100%",
             }}
           />
         </div>

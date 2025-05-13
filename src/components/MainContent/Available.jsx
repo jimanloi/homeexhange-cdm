@@ -21,13 +21,10 @@ const Available = () => {
             possible — these are available:
           </h5>
           <ul>
-            <li class="list-group-item">
-              🛏 Clean bed linens (already made upon arrival, except for the sofa
-              bed)
-            </li>
+            <li class="list-group-item">🛏 Clean bed linens</li>
             <li class="list-group-item">🧴 Shower gel & shampoo</li>
-            <li class="list-group-item">🧼 Two clean towels</li>
             <li class="list-group-item">💨 Hairdryer</li>
+            <li class="list-group-item">🧼 Clean towels</li>
           </ul>
         </div>
       </div>

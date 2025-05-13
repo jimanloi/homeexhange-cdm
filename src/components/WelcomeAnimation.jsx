@@ -81,7 +81,7 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
             boxSizing: "border-box",
             minHeight: "65vh",
             maxHeight: "fit-content",
-            height: "auto",
+            height: "90%",
           }}
         >
           <h4>🇬🇧 Welcome to our home!</h4>
@@ -105,8 +105,8 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
             <p>
               🇫🇷 Nous sommes ravis de vous accueillir dans notre petit cocon.
               Nous vous souhaitons un excellent séjour à Bruxelles ! Vous
-              trouverez ici toutes les informations utiles pour profiter
-              pleinement de l’appartement et vous sentir comme chez vous.
+              trouverez ici toutes les informations utiles pour vous sentir
+              comme chez vous.
             </p>
             <p>
               <small>Manloi & Julien</small>
@@ -119,7 +119,7 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
               style={{
                 backgroundColor: "transparent",
                 border: "1px solid transparent",
-                fontSize: "1.5rem",
+                fontSize: "1.8rem",
               }}
             >
               <i class="bi bi-x-circle" style={{ color: "rgb(2, 58, 58)" }}></i>
