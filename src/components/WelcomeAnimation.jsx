@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import BelgianFlag from "../assets/belgian-flag.svg";
 import Atomium from "../assets/atomium.svg";
 import BrusselsSprouts from "../assets/brussels-sprouts.svg";
-import ManloiJulien from "../assets/manloi-julien.jpg";
+import ManloiJulien from "../assets/manloi-julien_optimized_.jpg";
 import _ from "lodash";
 
 const icons = [BelgianFlag, Atomium, BrusselsSprouts];
