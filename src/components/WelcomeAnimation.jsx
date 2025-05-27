@@ -113,7 +113,7 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
             </p>
             <button
               type="button"
-              class="btn-close pull-right"
+              className="btn-close pull-right"
               aria-label="Close"
               onClick={() => setShowModal(false)}
               style={{
@@ -122,7 +122,10 @@ const WelcomeAnimation = ({ showModalOnly = false }) => {
                 fontSize: "1.8rem",
               }}
             >
-              <i class="bi bi-x-circle" style={{ color: "rgb(2, 58, 58)" }}></i>
+              <i
+                className="bi bi-x-circle"
+                style={{ color: "rgb(2, 58, 58)" }}
+              ></i>
             </button>
           </div>
         </div>

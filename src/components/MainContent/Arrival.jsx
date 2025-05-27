@@ -3,7 +3,7 @@ const Arrival = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-info"
+          className="btn btn-info"
           data-toggle="collapse"
           href="#collapseExample"
           role="button"
@@ -14,8 +14,8 @@ const Arrival = () => {
           🧳 Arrival info
         </a>
       </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
+      <div className="collapse" id="collapseExample">
+        <div className="card card-body">
           We’ll be in touch with you before your arrival to coordinate how
           you’ll get the keys and access the apartment. Please make sure to be
           reachable in the days leading up to your arrival so we can ensure

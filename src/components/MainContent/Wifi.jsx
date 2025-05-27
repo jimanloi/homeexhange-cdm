@@ -3,7 +3,7 @@ const Wifi = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-outline-info"
+          className="btn btn-outline-info"
           data-toggle="collapse"
           href="#wifi"
           role="button"
@@ -14,8 +14,8 @@ const Wifi = () => {
           🛜 Wi-Fi
         </a>
       </p>
-      <div class="collapse" id="wifi">
-        <div class="card card-body list-group">
+      <div className="collapse" id="wifi">
+        <div className="card card-body list-group">
           <p>Username: TheLuckas</p>
           <p>Password: CiccioPuppy2020</p>
         </div>

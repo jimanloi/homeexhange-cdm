@@ -3,7 +3,7 @@ const Available = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-info"
+          className="btn btn-info"
           data-toggle="collapse"
           href="#available"
           role="button"
@@ -14,17 +14,17 @@ const Available = () => {
           🪮 What’s Available
         </a>
       </p>
-      <div class="collapse" id="available">
-        <div class="card card-body list-group">
+      <div className="collapse" id="available">
+        <div className="card card-body list-group">
           <h5>
             We’ve tried to make the apartment as comfortable and practical as
-            possible — these are available:
+            possible. These are available:
           </h5>
           <ul>
-            <li class="list-group-item">🛏 Clean bed linens</li>
-            <li class="list-group-item">🧴 Shower gel & shampoo</li>
-            <li class="list-group-item">💨 Hairdryer</li>
-            <li class="list-group-item">🧼 Clean towels</li>
+            <li className="list-group-item">🛏 Clean bed linens</li>
+            <li className="list-group-item">🧴 Shower gel & shampoo</li>
+            <li className="list-group-item">💨 Hairdryer</li>
+            <li className="list-group-item">🧼 Clean towels</li>
           </ul>
         </div>
       </div>

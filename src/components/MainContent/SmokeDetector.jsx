@@ -3,7 +3,7 @@ const SmokeDetecter = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-outline-info"
+          className="btn btn-outline-info"
           data-toggle="collapse"
           href="#smoke"
           role="button"
@@ -14,8 +14,8 @@ const SmokeDetecter = () => {
           🚨 Smoke Detector
         </a>
       </p>
-      <div class="collapse" id="smoke">
-        <div class="card card-body list-group">
+      <div className="collapse" id="smoke">
+        <div className="card card-body list-group">
           <p>
             There’s a smoke detector in the hallway outside the bedroom and
             bathroom. Sometimes, after a hot shower, the steam can trigger it.

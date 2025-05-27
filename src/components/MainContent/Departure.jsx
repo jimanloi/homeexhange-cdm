@@ -3,7 +3,7 @@ const Departure = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-info"
+          className="btn btn-info"
           data-toggle="collapse"
           href="#departure"
           role="button"
@@ -14,24 +14,28 @@ const Departure = () => {
           👋 Departure Checklist
         </a>
       </p>
-      <div class="collapse" id="departure">
-        <div class="card card-body list-group">
+      <div className="collapse" id="departure">
+        <div className="card card-body list-group">
           <ul>
             <h4>✅ Before you leave, we kindly ask you to:</h4>
-            <li class="list-group-item">
+            <li className="list-group-item">
               🛏 Remove all bed sheets and place them in one of the laundry bags
               in the bathroom{" "}
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               🚪 Close all windows and the patio door
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               🍽 Clean any dishes you used and return everything to its place
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
+              🧹 Clean surfaces and vacuum the floor (wireless vacuum cleaner
+              available)
+            </li>
+            <li className="list-group-item">
               🔐 Lock the apartment door with the key
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               🗝 Return the key to the locker box (details to be confirmed)
             </li>
           </ul>

@@ -5,7 +5,7 @@ const Heating = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-outline-info"
+          className="btn btn-outline-info"
           data-toggle="collapse"
           href="#heating"
           role="button"
@@ -16,8 +16,8 @@ const Heating = () => {
           🔥Heating
         </a>
       </p>
-      <div class="collapse" id="heating">
-        <div class="card card-body list-group" style={{ padding: 20 }}>
+      <div className="collapse" id="heating">
+        <div className="card card-body list-group" style={{ padding: 20 }}>
           <p>
             The apartment is equipped with a central heating system. You’ll find
             the thermostat (see picture below) in the living room.

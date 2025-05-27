@@ -7,12 +7,15 @@ import Wifi from "./Wifi";
 import SofaBed from "./SofaBed";
 import Heating from "./Heating";
 import SmokeDetecter from "./SmokeDetector";
+import Transport from "./Transport";
+import Recommendation from "./Recommendation";
 
 const MainContent = () => {
   return (
     <>
       <Arrival />
       <Departure />
+      <Transport />
       <Available />
       <Kitchen />
       <Trash />
@@ -20,6 +23,7 @@ const MainContent = () => {
       <Wifi />
       <Heating />
       <SofaBed />
+      <Recommendation />
     </>
   );
 };

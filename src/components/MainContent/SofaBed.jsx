@@ -8,7 +8,7 @@ const SofaBed = () => {
     <div className="main-content-list-item">
       <p>
         <a
-          class="btn btn-outline-info"
+          className="btn btn-outline-info"
           data-toggle="collapse"
           href="#sofabed"
           role="button"
@@ -19,8 +19,8 @@ const SofaBed = () => {
           🛏️ Sofa to bed
         </a>
       </p>
-      <div class="collapse" id="sofabed">
-        <div class="card card-body list-group" style={{ padding: 20 }}>
+      <div className="collapse" id="sofabed">
+        <div className="card card-body list-group" style={{ padding: 20 }}>
           <p>
             The sofa can be easily converted into a bed. You will find the bed
             sheets, pillows and blanket in the sofa storage space.
