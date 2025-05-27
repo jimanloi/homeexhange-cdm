@@ -40,13 +40,13 @@ const Recommendation = () => {
           <ul className="recommendation-lists">
             <h4>🍴 Restaurants</h4>
             <p>
-              <small>🥬 Vegetarian-friendly</small>
+              <small style={{ color: "#636363" }}>🥬 Vegetarian-friendly</small>
             </p>
             <li>
               🇧🇪 Chez Léon <small>(Belgian comic books décor)</small>
             </li>
             <li>
-              🇧🇪🥬 Bouillon Bruxelless{" "}
+              🇧🇪🥬 Bouillon Bruxelles{" "}
               <small>(classic décor & reasonable prices)</small>
             </li>
             <li>
@@ -84,10 +84,7 @@ const Recommendation = () => {
             <li>❧ Parc Josaphat</li>
           </ul>
           <p>
-            <small>
-              This isn't an exhaustive list. I'd be happy to share more ideas if
-              you're interested!
-            </small>
+            <small>Ask us for more!</small>
           </p>
         </div>
       </div>
