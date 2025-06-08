@@ -15,9 +15,10 @@ const Intro = () => {
         </ul>
         <li>
           <strong>Security first. Please lock up! 🔐</strong> Our apartment is
-          located on the ground floor, we kindly ask you to always lock the door
-          with the key <i className="bi bi-key-fill"></i> and make sure windows
-          are closed when you leave the apartment.
+          located on the ground floor, we kindly ask you to always lock the
+          doors <u>(both the building door and the apartment door)</u> with the
+          key <i className="bi bi-key-fill"></i> and make sure windows are
+          closed when you leave the apartment.
         </li>
         <br />
         <li>
