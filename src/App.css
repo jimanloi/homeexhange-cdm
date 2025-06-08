@@ -52,4 +52,6 @@ ul {
 
 .card-body {
   padding: 20px;
+  max-width: 650px;
+  justify-self: center;
 }
